@@ -6,7 +6,6 @@
 // Last revised: 27 Oct 2012
 //------------------------------------
 
-`include "alucodes.sv"
 module cpu #( parameter n = 8) // data bus width
 (input logic clk,  
   input reset, // master reset
